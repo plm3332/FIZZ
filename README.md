@@ -1,1 +1,1 @@
-# FaCED: Factual Consistency Checking for Abstractive Summarization using Granularity Expansion and Atomic Fact Decomposition
+# FaCED: Factual Consistency Detection with Granularity Expansion and Atomic Fact Decomposition
