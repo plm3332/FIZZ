@@ -14,7 +14,7 @@ parser.add_argument('--output_path', type=str, default='data/output.csv')
 parser.add_argument('--doc_label', type=str, default='doc')
 parser.add_argument('--summary_label', type=str, default='summary')
 parser.add_argument('--atomic_facts_column', type=str, default='atomic_facts')
-parser.add_argument('--score_column', type=str, default='FAIRY_score')
+parser.add_argument('--score_column', type=str, default='FIZZ_score')
 parser.add_argument('--model_name', type=str, default='orca2')
 parser.add_argument('--granularity', type=str, default='3G')
 
