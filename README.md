@@ -14,5 +14,5 @@ python fairy/fairy_score.py
 - `--summary_label`: Name of the column for the summary. `summary` by default.
 - `--atomic_facts_column`: Name of the column to add the generated atomic fact. `atomic_facts` by default.
 - `--score_column`: Name of the column to add the computed score. `FAIRY_score` by default.
-- `--model_name`: Name of the LLM for atomic fact decomposition. `orca2` by default.
+- `--model_name`: Name of the LLM for atomic fact decomposition. `orca2` by default. There are `zephyr` and `mistral` choices.
 - `--granularity`: Granularity choice for computing FAIRY score. `3G` by default.
