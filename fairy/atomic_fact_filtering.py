@@ -31,7 +31,8 @@ class AtomicFactFilterer:
         return sentences
     
     def atomic_facts_filtering(self, original_text, decomposed_text):
-        self.load_lm()
+        if self.model == None:
+            self.load_lm()
         original_sentences_list = self.split_sentences(original_text)
         decomposed_sentences_list = self.split_sentences(decomposed_text)
         filtered_atomic_facts = ""

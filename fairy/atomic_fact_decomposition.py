@@ -85,7 +85,8 @@ class AtomicFactDecomposer:
         return preprocessed_text
     
     def atomic_facts_decompose(self, text):
-        self.load_lm()
+        if self.model == None:
+            self.load_lm()
         sentences_list = self.split_sentences(text)
         full_atomic_facts = "" 
         for sentence in sentences_list:
