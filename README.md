@@ -1,1 +1,1 @@
-# FaCED: Factual Consistency Detection with Granularity Expansion and Atomic Fact Decomposition
+# FAIRY: Factual Inconsistency Detection for Abstractive Summarization based on Atomic Facts and Granularity
