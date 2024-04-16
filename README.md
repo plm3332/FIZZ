@@ -1,10 +1,10 @@
-# FAIRY: Factual Inconsistency Detection for Abstractive Summarization based on Atomic Facts and Granularity
+# FIZZ: Factual Inconsistency Detection by Zoom-in Summary and Zoom-out Document
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
 ## Running
 ```bash
-python fairy/fairy_score.py
+python fizz/fizz_score.py
 ```
 
 **Optional flags**:
@@ -13,6 +13,6 @@ python fairy/fairy_score.py
 - `--doc_label`: Name of the column for the source document. `doc` by default.
 - `--summary_label`: Name of the column for the summary. `summary` by default.
 - `--atomic_facts_column`: Name of the column to add the generated atomic fact. `atomic_facts` by default.
-- `--score_column`: Name of the column to add the computed score. `FAIRY_score` by default.
+- `--score_column`: Name of the column to add the computed score. `FIZZ_score` by default.
 - `--model_name`: Name of the LLM for atomic fact decomposition. `orca2` by default. There are `zephyr` and `mistral` choices.
 - `--granularity`: Granularity choice for computing FAIRY score. `3G` by default.
