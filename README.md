@@ -1,1 +1,18 @@
 # FAIRY: Factual Inconsistency Detection for Abstractive Summarization based on Atomic Facts and Granularity
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+
+## Running
+```bash
+python fairy/fairy_score.py
+```
+
+**Optional flags**:
+- `--input_path`: Directory for input data path. We recommend using `.csv` file. `data/aggre_fact_sota.csv` by default.
+- `--output_path`: Directory for output data path. We recommend including `.csv` format. `data/output.csv` by default.
+- `--doc_label`: Name of the column for the source document. `doc` by default.
+- `--summary_label`: Name of the column for the summary. `summary` by default.
+- `--atomic_facts_column`: Name of the column to add the generated atomic fact. `atomic_facts` by default.
+- `--score_column`: Name of the column to add the computed score. `FAIRY_score` by default.
+- `--model_name`: Name of the LLM for atomic fact decomposition. `orca2` by default.
+- `--granularity`: Granularity choice for computing FAIRY score. `3G` by default.
