@@ -1,6 +1,9 @@
 # FIZZ: Factual Inconsistency Detection by Zoom-in Summary and Zoom-out Document
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![arxiv](https://img.shields.io/badge/arXiv-2305.14251-b31b1b.svg)](https://arxiv.org/abs/2404.11184)
+
+This repository contains the code for EMNLP2024 paper: FIZZ: Factual Inconsistency Detection by Zoom-in Summary and Zoom-out Document
 
 ## Running
 ```bash
